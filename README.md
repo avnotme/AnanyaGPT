@@ -1,2 +1,0 @@
-# AnanyaGPT
-Personal Bot
