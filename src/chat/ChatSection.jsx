@@ -32,8 +32,8 @@ export function MainContent({
     if (apiKey === '' && !loading) {
       return <center>
         <span className={'fuschia'}>Please Add your Api Key</span>
-        <br/>
-        <a href={'https://beta.openai.com/account/api-keys'} target={'_blank'} className={'blue hover'}>
+        <br/><a href={'https://beta.openai.com/account/api-keys'} target={'_blank'} rel={'noreferrer'} className={'blue hover'}>
+
           Click here to get your API Key
         </a>
         <br/>

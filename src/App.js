@@ -12,7 +12,7 @@ The AI is ${attributes}.\n\n`
 }
 
 function getEngineId() {
-  return 'text-davinci-002'
+  return 'text-davinci-003'
 }
 
 function App() {
